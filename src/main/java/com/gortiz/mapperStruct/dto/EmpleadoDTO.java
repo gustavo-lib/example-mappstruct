@@ -3,7 +3,7 @@ package com.gortiz.mapperStruct.dto;
 public class EmpleadoDTO {
 	
 	private Integer id;
-	private String nombreEmpleado;
+	private String nombreEmpleadoDTO;
 	private LugarDTO sede;
 	private String fechaIngreso;
 
@@ -15,12 +15,12 @@ public class EmpleadoDTO {
 		this.id = id;
 	}
 
-	public String getNombreEmpleado() {
-		return nombreEmpleado;
+	public String getnombreEmpleadoDTO() {
+		return nombreEmpleadoDTO;
 	}
 
-	public void setNombreEmpleado(String nombreEmpleado) {
-		this.nombreEmpleado = nombreEmpleado;
+	public void setnombreEmpleadoDTO(String nombreEmpleadoDTO) {
+		this.nombreEmpleadoDTO = nombreEmpleadoDTO;
 	}
 
 	public LugarDTO getSede() {
@@ -41,7 +41,7 @@ public class EmpleadoDTO {
 
 	@Override
 	public String toString() {
-		return "EmpleadoDTO [id=" + id + ", nombreEmpleado=" + nombreEmpleado + ", sede=" + sede + ", fechaIngreso="
+		return "EmpleadoDTO [id=" + id + ", nombreEmpleadoDTO=" + nombreEmpleadoDTO + ", sede=" + sede + ", fechaIngreso="
 				+ fechaIngreso + "]";
 	}
 

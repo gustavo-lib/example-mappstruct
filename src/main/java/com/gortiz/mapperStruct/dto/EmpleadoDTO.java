@@ -1,6 +1,7 @@
 package com.gortiz.mapperStruct.dto;
 
 public class EmpleadoDTO {
+	
 	private Integer id;
 	private String nombreEmpleado;
 	private LugarDTO sede;

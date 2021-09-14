@@ -1,6 +1,7 @@
 package com.gortiz.mapperStruct.dto;
 
 public class LugarDTO {
+	
 	private Integer id;
 	private String nombre;
 
